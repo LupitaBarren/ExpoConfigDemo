@@ -1,10 +1,19 @@
 {
   "expo": {
-    "name": "ExpoConfigDemo",
-    "slug": "ExpoConfigDemo",
+    "name": "Expo Config Demo",
+    "description": "Exploring Expo App Config Properties",
+    "slug": "expo-config-demo",
+    "owner": "LupitaBarren",
+    "privacy": "unlisted",
+    "runtimeVersion": {
+      "policy": "nativeVersion"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,9 +24,12 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.lbarren.expoconfigdemo",
+      "icon": "./assets/icon.png",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.lbarren.expoconfigdemo",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
